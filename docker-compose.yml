@@ -1,0 +1,8 @@
+services:
+  php:
+    build: .
+    container_name: php-composer
+    volumes:
+      - ../packages:/apps
+    working_dir: /apps
+    command: tail -f /dev/null
