@@ -5,4 +5,4 @@ services:
     volumes:
       - ../packages:/apps
     working_dir: /apps
-    command: tail -f /dev/null
+    command: sleep 86400
